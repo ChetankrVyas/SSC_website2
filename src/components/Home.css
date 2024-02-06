@@ -178,9 +178,9 @@
   .home-section {
     
     background-image: url("../images/main.png");
-    background-position: cover;
-    min-height: 100%;
-    max-width: 100%;
+    background-position: center;
+    width: 100%; /* Ensure the container fills the entire width of the mobile view */
+    height: 100vh;
     background-size: cover;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
